@@ -1,0 +1,31 @@
+@media (min-width: 1000px){
+div{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-wrap: nowrap;
+}
+nav{
+    background-color:rgb(0, 153, 255);
+    border:rgb(0, 153, 255) solid 5px;
+    border-radius: 10px 0px 0px 10px;
+}
+section{
+    background-color:rgb(230, 230, 230);
+    border:rgb(230, 230, 230) solid 5px;
+    border-radius: 0px 10px 10px 0px;
+}
+nav h1, nav h2, nav h3{
+    background-color:rgb(230, 230, 230);
+    color: rgb(0, 153, 255);
+    text-align: center;
+    border: solid rgb(230, 230, 230) 5px;
+    border-radius:10px;
+}
+section h1, section h2{
+    background-color:rgb(0, 153, 255);
+    color: white;
+    text-align: center;
+    border: solid rgb(0, 153, 255) 5px;
+    border-radius:10px;
+}
+}
