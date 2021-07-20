@@ -3,16 +3,20 @@ div{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     flex-wrap: nowrap;
+    padding: 15%;
+    justify-content:center;
 }
 nav{
     background-color:rgb(0, 153, 255);
     border:rgb(0, 153, 255) solid 5px;
     border-radius: 10px 0px 0px 10px;
+    width: 25%;
 }
 section{
     background-color:rgb(230, 230, 230);
     border:rgb(230, 230, 230) solid 5px;
     border-radius: 0px 10px 10px 0px;
+    width: 50%;
 }
 nav h1, nav h2, nav h3{
     background-color:rgb(230, 230, 230);
@@ -33,5 +37,5 @@ section h2{
 }
 }
 @media (max-width :700px) {
-    
+
 }
