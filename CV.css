@@ -1,41 +1,74 @@
-@media (min-width: 700px){
-div{
+
+form {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 15%;
-    justify-content:center;
 }
-nav{
+
+#partie1{
     background-color:rgb(0, 153, 255);
     border:rgb(0, 153, 255) solid 5px;
-    border-radius: 10px 0px 0px 10px;
-    width: 25%;
+    border-radius: 10px 10px 0px 0px;
+    width: auto;
 }
-section{
+#partie2{
     background-color:rgb(230, 230, 230);
     border:rgb(230, 230, 230) solid 5px;
-    border-radius: 0px 10px 10px 0px;
-    width: 50%;
+    border-radius: 0px 0px 10px 10px;
+    width: auto;
 }
-nav h1, nav h2, nav h3{
-    background-color:rgb(230, 230, 230);
-    color: rgb(0, 153, 255);
-    text-align: center;
-    border: solid rgb(230, 230, 230) 5px;
-    border-radius:10px;
-}
-section h1 {
+
+h1{
     color:Red;
 }
-section h2{
-    background-color:rgb(0, 153, 255);
-    color: white;
-    text-align: center;
-    border: solid rgb(0, 153, 255) 5px;
-    border-radius:10px;
-}
-}
-@media (max-width :700px) {
 
+#partie1 h2 {
+    background-color: rgb(230, 230, 230);
+    color:rgb(0, 153, 255);
+    border:rgb(230, 230, 230) solid 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+#partie2 h2 {
+    background-color:rgb(0, 153, 255);
+    color: rgb(230, 230, 230);
+    border:rgb(0, 153, 255) solid 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+form {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content:center;
+}
+
+@media (min-width: 700px){
+
+    *{
+        display: flex;
+    }
+    #nom{
+        order: 0;
+    }    
+    #apropos{
+        order: 1;
+    }
+    #coordonnees{
+        order: 2;
+    }
+    #langues{
+        order: 3;
+    }
+    #autres{
+        order: 4;
+    }
+    #titre{
+        order: 5;
+    }
+    #competences{
+        order: 6;
+    }
+    #experiences{
+        order: 7;
+    }
+    #diplomes{
+        order: 8;
+    }
 }
