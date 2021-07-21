@@ -41,9 +41,21 @@ form {
 
 @media (min-width: 700px){
 
-    *{
+    div {
         display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-height: 1300px;
     }
+    
+    #nom, #apropos, #coordonnees, #langues, #autres {
+        max-width: 220px;
+    }
+
+    #titre, #competences, #experiences, #diplomes{
+        max-width: 440px;
+    }
+    
     #nom{
         order: 0;
     }    
@@ -71,4 +83,9 @@ form {
     #diplomes{
         order: 8;
     }
+
+    h1{
+        color:red;
+        font-size: 25px;
+        }
 }
