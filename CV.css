@@ -49,8 +49,8 @@ h1{
 }
 
 #langues, #autres, #experiences, #competences, #diplomes{
-    background-color:rgb(230, 230, 230);
-    border:rgb(230, 230, 230) solid 5px;
+    background-color:rgb(241, 241, 241);
+    border:rgb(241, 241, 241) solid 5px;
 
 }
 
@@ -69,7 +69,7 @@ h1{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        max-height: 1200px;
+        max-height: 1220px;
         align-content: center;
     }
     
@@ -119,11 +119,12 @@ h1{
     }
     #autres{
         order: 4;
-        padding-bottom: 31px;
+        padding-bottom: 61px;
         border-radius: 0 0 0 30px;
     }
     #titre{
         order: 5;
+        border:rgb(241, 241, 241);
     }
     #competences{
         order: 6;
