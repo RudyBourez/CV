@@ -10,56 +10,41 @@ td:nth-child(0){
     text-align: center;
 }
 
-form {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+@media (max-width: 749px){
 
-#partie1{
-    background-color:rgb(0, 153, 255);
-    border:rgb(0, 153, 255) solid 5px;
-    border-radius: 10px 10px 0px 0px;
-    width: auto;
-}
+    h1{
+        color:Red;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
 
-#partie2{
-    background-color:rgb(230, 230, 230);
-    border:rgb(230, 230, 230) solid 5px;
-    border-radius: 0px 0px 10px 10px;
-    width: auto;
-}
+    #titre, #nom, #apropos, #coordonnees {
+        background-color:rgb(0, 153, 255);
+        border:rgb(0, 153, 255) solid 5px;
+        text-align: center;
+    }
 
-h1{
-    color:Red;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
+    #nom h2, #apropos h2, #coordonnees h2{
+        color:rgb(0, 153, 255);
+        background-color: rgb(230, 230, 230);
+        text-align: center;
+        border: solid 5px;
+        border-radius: 20px;
+    }
 
-#titre, #nom, #apropos, #coordonnees {
-    background-color:rgb(0, 153, 255);
-    border:rgb(0, 153, 255) solid 5px;
-    text-align: center;
-}
+    #langues, #autres, #experiences, #competences, #diplomes{
+        background-color:rgb(241, 241, 241);
+        border:rgb(241, 241, 241) solid 5px;
 
-#nom h2, #apropos h2, #coordonnees h2{
-    color:rgb(0, 153, 255);
-    background-color: rgb(230, 230, 230);
-    text-align: center;
-    border: solid 5px;
-    border-radius: 20px;
-}
+    }
 
-#langues, #autres, #experiences, #competences, #diplomes{
-    background-color:rgb(241, 241, 241);
-    border:rgb(241, 241, 241) solid 5px;
-
-}
-
-#langues h2, #autres h2, #experiences h2, #competences h2, #diplomes h2{
-    color:rgb(230, 230, 230);
-    background-color: rgb(0, 153, 255);
-    text-align: center;
-    border: solid 5px;
-    border-radius: 20px;
+    #langues h2, #autres h2, #experiences h2, #competences h2, #diplomes h2{
+        color:rgb(230, 230, 230);
+        background-color: rgb(0, 153, 255);
+        text-align: center;
+        border: solid 5px;
+        border-radius: 20px;
+    }
 }
 
 
