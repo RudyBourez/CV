@@ -61,7 +61,7 @@ td:nth-child(0){
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        max-height: 1250px;
+        max-height: 1270px;
         align-content: center;
     }
     
@@ -117,6 +117,7 @@ td:nth-child(0){
     #titre{
         order: 5;
         border:rgb(241, 241, 241);
+        padding-top: 20px;
     }
     #competences{
         order: 6;
@@ -127,6 +128,7 @@ td:nth-child(0){
     #diplomes{
         order: 8;
         border-radius: 0 0 30px 0;
+        padding-bottom: 40px;
     }
 
     h1{
