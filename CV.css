@@ -10,6 +10,14 @@ td:nth-child(0){
     text-align: center;
 }
 
+img {
+    width:150px;
+    height:150px;
+    border-radius:80px;
+}
+#nom {
+    text-align: center;
+}
 @media (max-width: 749px){
 
     h1{
@@ -30,6 +38,7 @@ td:nth-child(0){
         text-align: center;
         border: solid 5px;
         border-radius: 20px;
+
     }
 
     #langues, #autres, #experiences, #competences, #diplomes{
@@ -61,7 +70,7 @@ td:nth-child(0){
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        max-height: 1270px;
+        max-height: 1380px;
         align-content: center;
     }
     
@@ -80,6 +89,7 @@ td:nth-child(0){
         border: solid rgb(241, 241, 241) 1px;
         border-radius: 20px;
         text-align: center;
+        
     }
 
     #titre h2, #competences h2, #experiences h2, #diplomes h2{
@@ -94,6 +104,7 @@ td:nth-child(0){
        padding-left: 20px;
        padding-right: 20px;
        background-color: rgb(241, 241, 241);
+       padding-bottom: 42px;
     }
     
     #nom{
@@ -117,7 +128,7 @@ td:nth-child(0){
     #titre{
         order: 5;
         border:rgb(241, 241, 241);
-        padding-top: 20px;
+        padding-top: 25px;
     }
     #competences{
         order: 6;
@@ -128,7 +139,7 @@ td:nth-child(0){
     #diplomes{
         order: 8;
         border-radius: 0 0 30px 0;
-        padding-bottom: 40px;
+        padding-bottom: 29px;
     }
 
     h1{
